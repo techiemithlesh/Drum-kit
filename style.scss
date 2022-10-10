@@ -1,0 +1,98 @@
+.container{
+    background: url(./asset/pexels-photo-1763067.webp) no-repeat center/cover;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+
+    .tittle{
+        img{
+            width: 100px;
+            height: 100px;
+        }
+
+        span{
+            font-size: 34px;
+            font-weight: 700;
+            margin-top: 2rem;
+            display: flex;
+            text-align: center;
+            align-items: center;
+        }
+    }
+    .box_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh;
+        .box{
+            width: 125px;
+            height: 125px;
+            background: #fff;
+            border-radius: 10px;
+            margin: 15px;
+            padding: 1rem 0.5rem;
+            text-align: center;
+            font-size: 1.3rem;
+            cursor: pointer;
+        }
+        .inner_box{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 100%;
+            height: 100%;
+            text-transform: uppercase;
+            
+            kbd{
+                font-size: 3rem;
+                margin-top: -10px;
+            }
+
+            span{
+                font-size: 12px;
+                margin-top: 20px;
+                rotate: 10deg;
+            }
+        }
+        :hover{
+            transform: scale(1.2);
+        }
+        .inner_box_1{
+            background: url(./asset/tom1.png);
+            background-size: cover;
+        }
+        .inner_box_2{
+            background: url(./asset/tom2.png);
+            background-size: cover;
+        }
+        .inner_box_3{
+            background: url(./asset/tom1.png);
+            background-size: cover;
+            
+        }
+        .inner_box_4{
+            background: url(./asset/crash.png);
+            background-size: cover;
+        }
+        .inner_box_5{
+            background: url(./asset/images.jfif);
+            background-size: cover;
+        }
+        .inner_box_6{
+            background: url(./asset/crash.png);
+            background-size: cover;
+        }
+        .inner_box_7{
+            background: url(./asset/snare.png);
+            background-size: cover;
+        }
+        .inner_box_8{
+            background: url(./asset/tomm5.jfif);
+            background-size: cover;
+        }
+        .inner_box_9{
+            background: url(./asset/piano.jfif);
+            background-size: cover;
+        }
+    }
+}

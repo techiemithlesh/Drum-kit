@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TAILWIND CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/8439cce7a5.js" crossorigin="anonymous"></script>
+    <title>Drum-Kit |Mithlesh Patel|</title>
+</head>
+<body>
+    <div class="container">
+        <div class="tittle flex justify-center">
+            <img src="./asset/drum.png" alt="">
+            <span>Drum Kit</span>
+            <img src="./asset/drum.png" alt="">
+        </div>
+        <div class="flex items-center justify-between box_container">
+            <div class="box box_1" data-key="65">
+                <div class="inner_box_1 inner_box">
+                    <kbd>A</kbd>
+                    <span class="sound">Clap</span>
+                </div>
+            </div>
+            <div class="box box_2" data-key="70">
+                <div class="inner_box inner_box_2">
+                    <kbd>S</kbd>
+                    <span class="sound">Hihat</span>
+                </div>
+            </div>
+            <div class="box box_3" data-key="71">
+                <div class="inner_box inner_box_3">
+                    <kbd>D</kbd>
+                    <span class="sound">Kick</span>
+                </div>
+            </div>
+            <div class="box box_4" data-key="72">
+                <div class="inner_box inner_box_4">
+                    <kbd>F</kbd>
+                    <span class="sound">OpenHAT</span>
+                </div>
+            </div>
+            <div class="box box_5" data-key="73">
+                <div class="inner_box inner_box_5">
+                    <kbd>G</kbd>
+                    <span class="sound">Boom</span>
+                </div>
+            </div>
+            <div class="box box_6" data-key="74">
+                <div class="inner_box inner_box_6">
+                    <kbd>H</kbd>
+                    <span class="sound">Ride</span>
+                </div>
+            </div>
+            <div class="box box_7" data-key="75">
+                <div class="inner_box inner_box_7">
+                    <kbd>J</kbd>
+                    <span class="sound">Snare</span>
+                </div>
+            </div>
+            <div class="box box_8" data-key="76">
+                <div class="inner_box inner_box_8">
+                    <kbd>K</kbd>
+                    <span class="sound">Tom</span>
+                </div>
+            </div>
+            <div class="box box_9" data-key="77">
+                <div class="inner_box inner_box_9">
+                    <kbd>L</kbd>
+                    <span class="sound">Tink</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER START HERE -->
+    <footer>
+        <div class="flex justify-center items-center bg-black text-white h-12">
+            <p>Made <i class="fas fa-heart text-red-400"></i> <a href="https://www.instagram.com/programmermithlesh/" target="_blank">programmermithlesh</a></p>
+        </div>
+    </footer>
+    <!-- FOOTER END HERE -->
+    <!-- Sounds for drum -->
+    <audio src="./sounds/01 - Drum Kit_sounds_boom.wav" data-key="65"></audio>
+    <audio src="./sounds/01 - Drum Kit_sounds_clap.wav" data-key="70"></audio>
+    <audio src="./sounds/01 - Drum Kit_sounds_hihat.wav" data-key="71"></audio>
+    <audio src="./sounds/01 - Drum Kit_sounds_kick.wav" data-key="72"></audio>
+    <audio src="./sounds/01 - Drum Kit_sounds_openhat.wav" data-key="73"></audio>
+    <audio src="./sounds/01 - Drum Kit_sounds_ride.wav" data-key="74"></audio>
+    <audio src="./sounds/01 - Drum Kit_sounds_snare.wav" data-key="75"></audio>
+    <audio src="./sounds/01 - Drum Kit_sounds_tink.wav" data-key="76"></audio>
+    <audio src="./sounds/01 - Drum Kit_sounds_tom.wav" data-key="77"></audio>
+
+    <!-- JavaScript Src-->
+    <script src="./index.js"></script>
+</body>
+</html>
